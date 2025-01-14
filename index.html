@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess my number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Guess my number</h1>
+        <p class="between">
+            (Between 1 and 20)
+        </p>
+        <button class="btn again">
+            Again!
+        </button>
+        <div class="number">
+            ?
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="left">
+                <input type="number" class="guess">
+                <button class="btn check">
+                    check!
+                </button>
+            </div>
+            <div class="right">
+                <p class="message">
+                    start guessing...
+                </p>
+
+                <p class="Score">Score : <span class="score-count">20</span></p>
+                <p class="highscore">highscore: <span class="highscore-count">
+                        0
+                    </span></p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
